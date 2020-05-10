@@ -1,0 +1,13 @@
+@keyframes example {
+  0%   {background-color:#faf0e6; left:0px; top:0px;}
+  25%  {background-color:#fff5ee ; left:200px; top:0px;}
+  50%  {background-color:#fdf5e6; left:200px; top:200px;}
+  75%  {background-color:#faf0e6; left:0px; top:200px;}
+  100% {background-color:#faebd7; left:0px; top:0px;}
+}
+
+.animation {
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}

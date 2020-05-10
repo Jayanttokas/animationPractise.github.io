@@ -1,0 +1,89 @@
+body,html{
+  margin: 0px;
+  padding:0px;
+}
+
+.container-fluid:first-of-type{
+  background-image: url(back-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.name{
+  font-family: 'Sirin Stencil', cursive;
+  font-size: 140px;
+  position: relative;
+  top: 40%;
+  text-shadow: 0px 0px 40px #decbb1;
+}
+
+.descrip{
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  top: 40%;
+  font-family: 'Alegreya', serif;
+}
+
+.title{
+  font-size: 40px;
+  border-right: 2px solid black;
+  font-family: 'Kaushan Script', cursive;
+}
+
+.overview{
+  font-size: 20px;
+}
+
+.about-me{
+  font-family: 'Sirin Stencil', cursive;
+  font-size: 110px;
+  margin-top: 100px;
+  border-bottom: 2px solid black;
+}
+
+.brief-intro{
+  font-size: 22px;
+  font-family: 'Alegreya', serif;
+}
+
+.work-done{
+  margin-top: 120px;
+}
+
+.points{
+  font-family: 'Alegreya', serif;
+  font-size: 20px;
+}
+
+.work-done .col-4{
+  border-right: 2px solid black;
+}
+
+.heading{
+  font-family: 'Alegreya', serif;
+}
+
+.education{
+  font-family: 'Sirin Stencil', cursive;
+  font-size: 100px;
+}
+
+.education-detail{
+  height:500px;
+  margin-top: 120px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  box-shadow: 0px 0px 20px 10px #decbb1;
+}
+
+.caro{
+  width: 70%:
+  height:200px;
+}
+
+.img{
+  position: relative;
+  top:170px;
+  left: 40%;
+}
